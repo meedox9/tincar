@@ -9,7 +9,7 @@ function Header() {
     return (
         <div className='header'>
             <IconButton> 
-            <PersonOutlineIcon frontSize="large" className="header__icon"/>
+            <PersonOutlineIcon style={{ fontSize: 40 }} className="header__icon"/>
             </IconButton>
 
             <img
@@ -19,7 +19,7 @@ function Header() {
             />
 
             <IconButton> 
-            <ForumIcon frontSize="large" className="header__icon"/>
+            <ForumIcon style={{ fontSize: 40 }} className="header__icon"/>
             </IconButton>
 
         </div>

@@ -1,7 +1,7 @@
 import React from "react"
 import './App.css';
 import Header from "./Header";
-import TinderCards from "./TinderCards"
+import TinderCards from "./TincarCards"
 
 function App() {
   return (
@@ -10,7 +10,9 @@ function App() {
     {/*Header*/}
     <Header/>
     {/*TinderCards*/}
+    <TinderCards/>
     {/*Footer*/}
+    
     </div>
   );
 }

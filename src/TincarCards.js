@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import TinderCard from "react-tinder-card"
 import "./TincarCards.css";
-import CardFooter from "./CardFooter"
 
 function TincarCards() {
 
@@ -43,7 +42,6 @@ function TincarCards() {
                     </div>
                 </TinderCard>
             ))}
-            <CardFooter/>
             </div>
         </div>
     )

@@ -1,6 +1,29 @@
 .cardFooter {
+  position: fixed;
+  bottom: 10vh;
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid grey;
+  justify-content: space-evenly;
+}
+
+.cardFooter .MuiIconButton-root {
+  background-color: white;
+  box-shadow: 0px 5px 20px 0px grey !important;
+}
+
+.cardFooter__starIcon {
+  padding: 1vw !important;
+  color: #f5e942 !important;
+}
+
+.cardFooter__clearIcon {
+  padding: 1vw !important;
+  color: red !important;
+}
+.cardFooter__checkIcon {
+  padding: 1vw !important;
+  color: green !important;
+}
+.cardFooter__rateIcon {
+  padding: 1vw !important;
 }

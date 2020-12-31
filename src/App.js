@@ -2,6 +2,7 @@ import React from "react"
 import './App.css';
 import Header from "./Header";
 import TinderCards from "./TincarCards"
+import CardFooter from "./CardFooter"
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
     {/*TinderCards*/}
     <TinderCards/>
     {/*Footer*/}
-    
+    <CardFooter/>
     </div>
   );
 }
